@@ -1,6 +1,6 @@
 FROM alpine:3.8
 
-RUN apk add --no-cache pdftk texlive libreoffice-calc libreoffice-writer inkscape bash ncurses msttcorefonts-installer \
+RUN apk add --no-cache pdftk texlive libreoffice-calc libreoffice-writer inkscape bash ncurses msttcorefonts-installer git \
     && update-ms-fonts
 
 RUN adduser -D ror
