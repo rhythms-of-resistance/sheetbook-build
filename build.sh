@@ -10,5 +10,5 @@ cd /home/ror/sheetbook
 rm -rf generated
 mkdir generated
 chown ror:ror generated
-su ror -c ./make-sheets.sh
+su ror -c ./make-sheets.sh || exit $?
 chown -R "$(stat -c %u:%g make-sheets.sh)" generated
