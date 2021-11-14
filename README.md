@@ -1,0 +1,1 @@
+This repository is now **deprecated**. It contains the old docker image to generate the RoR sheetbook PDFs. It is superseded by [sheetbook-generator](https://github.com/rhythms-of-resistance/sheetbook-generator).
